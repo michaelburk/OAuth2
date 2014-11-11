@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'OAuth2', :exclusive => true do
+  pod "OAuth2", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
