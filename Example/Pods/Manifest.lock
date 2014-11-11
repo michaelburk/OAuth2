@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.1)
+  - OAuth2 (0.1.0)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - OAuth2 (from `../`)
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  OAuth2:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  OAuth2: bec80de389287f5446a2c4e877e3c3199eec526f
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.34.4
