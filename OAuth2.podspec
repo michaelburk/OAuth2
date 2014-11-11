@@ -10,24 +10,23 @@
 Pod::Spec.new do |s|
   s.name             = "OAuth2"
   s.version          = "0.1.0"
-  s.summary          = "A short description of OAuth2."
+  s.summary          = "OAuth2 frameworks for OS X and iOS written in Swift."
   s.description      = <<-DESC
-                       An optional longer description of OAuth2
+                        OAuth2 frameworks for OS X and iOS written in Swift.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        The code in this repo requires Xcode 6, the built framework can be used on OS X 10.9 or iOS 7 and later. Supported OAuth2 flows are the code grant (response_type=code) and the implicit grant (response_type=token).
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/OAuth2"
+  s.homepage         = "https://github.com/p2/OAuth2"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Michael Burk" => "michaelburk02@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/OAuth2.git", :tag => s.version.to_s }
+  s.author           = { "Pascal Pfiffner" => "unknown" }
+  s.source           = { :git => "https://github.com/p2/OAuth2.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+s.source_files = 'OAuth2.h'
   s.resource_bundles = {
     'OAuth2' => ['Pod/Assets/*.png']
   }
